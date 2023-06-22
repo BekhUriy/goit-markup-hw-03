@@ -221,6 +221,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  display: block;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
 }
 .main-btn:hover,
 .main-btn:focus {
