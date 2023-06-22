@@ -191,12 +191,10 @@ body {
   border-radius: 4px;
 }
 .list-btn {
-  /* padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px; */
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  display: flex;
 }
 .main-btn {
   font-family: var(--primary-font);
@@ -213,17 +211,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
   color: #ffffff;
-  padding: 16px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: block;
-  margin: auto;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  cursor: pointer;
+  text-align: center;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -232,11 +224,7 @@ body {
   cursor: pointer;
   border: 1px solid transparent;
 }
-.main-btn-os:hover,
-.main-btn-os:focus {
-  background-color: #404bbf;
-  /* cursor: pointer; */
-}
+
 .conteiner-advantages {
   /* padding: 0 156px; */
 }
@@ -284,7 +272,7 @@ body {
 .main {
 }
 .main-section {
-  background-color: var(--primary-title-color);
+  /* background-color: var(--primary-title-color); */
   text-align: center;
   padding: 188px 0;
 }
