@@ -397,6 +397,7 @@ body {
   margin: 0 auto;
   padding: 120px 0;
   /* gap: 24px; */
+  width: calc((100% - 72px) / 4);
 }
 .section-ot-title {
   font-size: 36px;
@@ -451,7 +452,6 @@ body {
   margin-bottom: 120px;
   /* gap: 24px; */
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 
 /**
