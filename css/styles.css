@@ -319,6 +319,8 @@ padding: 0;
 .section-img-list {
   width: 1128px;
   padding-left: 0;
+  border-radius: 0px 0px 4px 4px;
+
   
 }
 
@@ -338,7 +340,10 @@ row-gap: 24px;
   
 }
 .section-ot {
+  width: 1440px;
+  height: 732px;
   background-color: #f4f4fd;
+  margin: 0 auto;
 }
 .section-ot-title {
   font-size: 36px;
@@ -347,12 +352,17 @@ row-gap: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 /*.section-ot-list {
   background-color: #FFFFFF;
 }*/
 .section-ot-item {
   background-color: #ffffff;
+  margin-bottom: 120px;
+ margin-right: 24px;
+ 
 }
 .item-title {
   font-weight: 500;
@@ -360,12 +370,29 @@ row-gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+  margin:  0;
 }
 .item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  gap: 24px;
+  text-align: center;
+  margin: 0;
 }
+.item-info {
+padding: 32px 16px;
+background: var(--primary-bacground-color);
+border-radius: 0px 0px 4px 4px;
+}
+.list-info {
+width: 264px;
+height: 380px;
+margin-bottom: 120px;
+}
+
 /**
   |============================
   | Footer styles
