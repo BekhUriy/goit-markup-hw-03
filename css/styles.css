@@ -402,6 +402,8 @@ margin-bottom: 120px;
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+  
 }
 .link {
   /*color: #4d5ae5;*/
@@ -409,7 +411,19 @@ margin-bottom: 120px;
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin: 16px 1020px 0 156px;
+  /* padding: 0 1020px 100px 156px; */
+}
+.logo-link{
+/* padding: 100px 1169px 16px 156px; */
 }
 .footer-logo {
   color: #f4f4fd;
+}
+.footer-container {
+/* padding */
+}
+.footer-link {
+margin: 0 1169px 16px 156px;
 }
